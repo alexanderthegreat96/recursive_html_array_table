@@ -8,14 +8,16 @@ Features:
  
  HOW TO USE:
  
- Simply require the file 
+Simply require the file 
 
-<?php
+
 require "array_debug.php";
 
 $my_multi_dimensional_array = array(1=> array("data" => "1" ,"value" => "1")));
 
+//Always use dump_array($data);
 echo dump_array($my_multi_dimensional_array);
 
-//PRINTS TABLE OF CONTENTS WITH ALL KEY NAMES AND VALUES
-?>
+
+Enjoy!
+
