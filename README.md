@@ -5,18 +5,12 @@ Features:
  - works with both plain and nested arrays
  - ease of use
  - it is recursive, meaning it applies to every array inside your actual array
+ - no need to use foreach upon reading the arrays. works on both surface and nested arrays
  
  HOW TO USE:
- 
-Simply require the file 
 
-
-require "array_debug.php";
-
-$my_multi_dimensional_array = array(1=> array("data" => "1" ,"value" => "1")));
-
-//Always use dump_array($data);
-echo dump_array($my_multi_dimensional_array);
+ - require "array_debug.php";
+ -  echo dump_array($my_array);
 
 
 Enjoy!
